@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Add these meta tags -->
+    <meta
+      name="description"
+      content="Free online tool to generate Dart model classes from JSON. Supports Freezed, JsonSerializable and normal Dart classes." />
+    <meta
+      name="keywords"
+      content="Dart, Flutter, JSON to Dart, JSON to Freezed, Freezed, JSON to JsonSerializable, JsonSerializable Model Generator" />
+    <meta name="author" content="Md Ashraf Ullah" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Favicon (add if available) -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn-icons-png.flaticon.com/512/9733/9733064.png" />
+
+    <title>Dart Model Generator Pro</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div class="app-wrapper">
+      <div class="container">
+        <div class="navbar">
+          <div class="nav-brand">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/9733/9733064.png"
+              alt="Dart Model Generator Logo"
+              class="nav-logo" />
+            <h2 class="nav-title">Dart Model Generator Pro</h2>
+          </div>
+          <button id="themeToggle" class="theme-btn">
+            <span id="themeIcon" class="material-icons">light_mode</span>
+          </button>
+        </div>
+
+        <div class="main-layout">
+          <div class="input-section">
+            <input
+              id="className"
+              placeholder="Enter Root Class Name (e.g. MyClass)" />
+            <div id="errorMsg" class="error-message"></div>
+
+            <textarea
+              id="jsonInput"
+              placeholder="Paste JSON here..."></textarea>
+
+            <div id="fileNameContainer" style="display: none">
+              <div class="file-input-wrapper">
+                <input
+                  id="fileName"
+                  placeholder="File name (optional, e.g. user_model)"
+                  aria-label="File name (optional)" />
+                <span class="optional-badge">optional</span>
+              </div>
+            </div>
+
+            <select id="mode">
+              <option value="normal" selected>Normal Dart Class</option>
+              <option value="freezed">Freezed Class</option>
+              <option value="json">JsonSerializable Class</option>
+              <option value="both">
+                Freezed + JsonSerializable (Mix) Class
+              </option>
+            </select>
+
+            <div id="optionsContainer" class="options-container">
+              <div id="privateFieldContainer" class="checkbox-container">
+                <input type="checkbox" id="usePrivateFields" />
+                <label for="usePrivateFields">Use Private Fields</label>
+              </div>
+
+              <div id="requiredFieldContainer" class="checkbox-container">
+                <input type="checkbox" id="useRequired" checked />
+                <label for="useRequired">Use 'required'</label>
+              </div>
+            </div>
+
+            <button id="generateBtn" class="generate-btn">Generate</button>
+          </div>
+
+          <div class="output-wrapper">
+            <button id="copyBtn" class="copy-button">
+              <span id="copyIcon" class="material-icons">content_copy</span>
+            </button>
+            <pre id="output" placeholder="Output will appear here..."></pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Section -->
+      <footer class="footer">
+        <div class="footer-bottom">
+          <div class="developer-credit">
+            <span class="material-icons">favorite</span>
+            <span>
+              Crafted with passion by
+              <strong>
+                <a
+                  href="https://github.com/MdAshrafUllah"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style="color: var(--primary); text-decoration: none">
+                  Md Ashraf Ullah
+                </a>
+              </strong>
+            </span>
+          </div>
+
+          <div class="footer-meta">
+            <span>Version 1.0.0</span>
+            <span class="dot">•</span>
+            <span>© 2026 All rights reserved</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- JavaScript Modules -->
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
