@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🚀 Dart Model Generator Pro
 
 A powerful online tool to generate Dart model classes from JSON instantly. Supports Freezed, JsonSerializable, and Normal Dart classes with smart type detection.
@@ -244,7 +243,3 @@ dart-model-generator/
   <br><br>
   <sub>© 2026 Dart Model Generator Pro. All rights reserved.</sub>
 </div>
-=======
-# Dart_Model_Generator_Pro
-🚀 Dart Model Generator Pro - Convert JSON to Dart models instantly! Supports Freezed, JsonSerializable &amp; Normal classes. Features: dark mode, private fields, required parameters, copy to clipboard. Perfect for Flutter developers. Clean, fast &amp; production-ready. Built with vanilla JS.
->>>>>>> 9d94e05e25c8470be57851c47dec1e282b1cc173
