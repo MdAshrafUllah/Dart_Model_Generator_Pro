@@ -40,35 +40,9 @@ A powerful online tool to generate Dart model classes from JSON instantly. Suppo
 
 ---
 
-## 🖼️ Screenshots
-
-|              Light Mode              |             Dark Mode              |
-| :----------------------------------: | :--------------------------------: |
-| ![Light Mode](screenshots/light.png) | ![Dark Mode](screenshots/dark.png) |
-
----
-
 ## 🚀 Live Demo
 
-Try it now: [Dart Model Generator Pro](https://mdashrafullah.github.io/dart-model-generator)
-
----
-
-## 📦 Project Structure
-
-```
-json-to-dart/
-├── index.html              # Main HTML file
-├── css/
-│   └── style.css          # All styles (Light/Dark theme)
-├── js/
-│   ├── main.js            # App entry point & UI logic
-│   ├── generator.js       # Dart class generation logic
-│   ├── utils.js           # Helper functions & validators
-│   ├── theme.js           # Theme management
-│   └── clipboard.js       # Copy to clipboard functionality
-└── screenshots/           # App screenshots
-```
+Try it now: [Dart Model Generator Pro](https://mdashrafullah.github.io/Dart_Model_Generator_Pro/)
 
 ---
 
@@ -196,7 +170,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MdAshrafUllah)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mdashrafullah)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=about.me&logoColor=white)](https://mdashrafullah.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=about.me&logoColor=white)](https://mdashrafullah.github.io/Flutter-portfolio/)
 
 ---
 
@@ -222,7 +196,7 @@ If this project helped you, please consider:
 ## 📁 ফাইল স্ট্রাকচার:
 
 ```
-dart-model-generator/
+dart-model-generator pro/
 ├── README.md           # এই ফাইলটি
 ├── LICENSE             # MIT License ফাইল
 ├── index.html
