@@ -60,7 +60,7 @@ Try it now: [Dart Model Generator Pro](https://mdashrafullah.github.io/Dart_Mode
 
 ### 1️⃣ Online Version
 
-1. Visit the [Live Demo](https://mdashrafullah.github.io/dart-model-generator)
+1. Visit the [Live Demo](https://mdashrafullah.github.io/Dart_Model_Generator_Pro/)
 2. Enter your class name (PascalCase)
 3. Paste your JSON data
 4. Select generation mode
